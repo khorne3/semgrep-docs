@@ -1,0 +1,7 @@
+name: find-old-docs
+on: [push]
+jobs:
+  find-old-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: w3f/action-find-old-files@1.0.1
